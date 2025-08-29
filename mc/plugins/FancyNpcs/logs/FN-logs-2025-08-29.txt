@@ -7,3 +7,6 @@
 {"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: home1","timestamp":1756451902915,"threadID":129,"threadName":"FancyNpcs-Skins-2","properties":{}}
 {"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1756451907031,"threadID":64,"threadName":"Server thread","properties":{}}
 {"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1756452000614,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1756453345942,"threadID":37,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1756454745667,"threadID":38,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1756455168208,"threadID":38,"threadName":"Server thread","properties":{}}

@@ -1,1 +1,1 @@
-java -Xmx1024M -Xms1024M -jar purpur-1.21.7-2477.jar nogui
+java -Xmx10024M -Xms1024M -jar purpur-1.21.7-2477.jar nogui

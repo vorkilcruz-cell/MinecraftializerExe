@@ -4,7 +4,7 @@ disable_interaction_cooldown_message: false # Whether interaction cooldown messa
 mute_version_notification: false # Whether version notifications are muted.
 enable_autosave: true # Whether autosave is enabled.
 autosave_interval: 15 # The interval at which autosave is performed in minutes.
-npc_update_interval: 60
+npc_update_interval: 60 # The interval at which the NPC is updated (in seconds). Only if the skin or displayName is a placeholder.
 npc_update_visibility_interval: 20 # The interval at which the NPC visibility is updated (in ticks).
 register_commands: true # Whether the plugin should register its commands.
 turn_to_player_distance: 5 # The distance at which NPCs turn to the player.

@@ -285,7 +285,7 @@ spawn:
   pvp: true
   respawn-world: ''
   scale: 1.0
-  seed: -6018797691199393686
+  seed: -4495816307644047552
   spawn-location:
     ==: MVSpawnLocation
     x: 10.365662392623902
@@ -347,17 +347,7 @@ world:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     water_animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -367,7 +357,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_underground_creature:
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -377,7 +367,17 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_underground_creature:
       spawn: true
       tick-rate: -1
       spawn-limit: -1

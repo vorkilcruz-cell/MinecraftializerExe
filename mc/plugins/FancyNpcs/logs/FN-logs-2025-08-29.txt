@@ -2,3 +2,8 @@
 {"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.0) has been enabled.","timestamp":1756441286194,"threadID":45,"threadName":"Server thread","properties":{}}
 {"loggerName":"FancyNpcs","logLevel":"WARN","message":"Could not fetch skin: invalid_image_url: Failed to find image from url: Request failed with status code 403","timestamp":1756441302175,"threadID":129,"threadName":"FancyNpcs-Skins-2","properties":{}}
 {"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1756446751185,"threadID":45,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Plugin has been updated from version 2.7.0 to 2.7.1.","timestamp":1756451874089,"threadID":64,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1756451874363,"threadID":64,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"Updated skin for NPC: home1","timestamp":1756451902915,"threadID":129,"threadName":"FancyNpcs-Skins-2","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1756451907031,"threadID":64,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1756452000614,"threadID":40,"threadName":"Server thread","properties":{}}

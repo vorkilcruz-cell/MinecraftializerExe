@@ -591,6 +591,7 @@ command:
   teleport: teleport
   importmessages: importmessages
   money: money
+  holo: holo
 webhook:
   
   unknownPlayer: an unknown player

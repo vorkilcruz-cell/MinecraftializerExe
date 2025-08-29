@@ -20,7 +20,6 @@
   
   
 world:
-  
   # When enabled, Multiverse will automatically import default worlds defined in the server.properties
   # `level-name` property when the Multiverse is enabled or reloaded. This will include the nether and 
   # end if the server created them.
@@ -29,6 +28,7 @@ world:
   # When enabled, Multiverse will import all other worlds created by other plugins when Multiverse starts
   # or when Multiverse is reloaded.
   auto-import-3rd-party-worlds: true
+  
   # This setting will prevent players from entering worlds they don't have access to.
   # If this is set to false, players will be able to enter any world they want.
   # If this is set to true, players will only be able to enter worlds they have
@@ -67,6 +67,16 @@ teleport:
   #   - For teleport destinations: `multiverse.teleport.<self|other>.<type>`
   #   - For spawn: `multiverse.core.spawn.<self|other>`
   use-finer-teleport-permissions: true
+  
+  # Configures how passengers and vehicles are handled when an entity is teleported.
+  #   default: Server will handle passengers and vehicles, this usually means entities will not be teleported to a different world if they have passengers.
+  #   dismount_passengers: Passengers will be removed from the parent entity before the teleport.
+  #   dismount_vehicle: Vehicle will be removed and from the parent entity before the teleport.
+  #   dismount_all: All passengers and vehicles will be removed from the parent entity before the teleport.
+  #   retain_passengers: Passengers will teleport together with the parent entity.
+  #   retain_vehicle: Vehicles will teleport together with the parent entity.
+  #   retain_all: All passengers and vehicles will teleport together with the parent entity.
+  passenger-mode: default
   
   # Sets the maximum number of players allowed to be teleported at once with `/mv teleport` command
   concurrent-teleport-limit: 50
@@ -226,6 +236,7 @@ misc:
   #   2 = finer
   #   3 = finest
   global-debug: 0
+  
   # Sets whether console will log every permission check done by all multiverse plugins.
   # This will only work if the above 'global-debug' is set to 1 or more.
   debug-permissions: false

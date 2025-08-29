@@ -1,0 +1,6 @@
+Menu:
+  Title: Do you want to redeem?
+  'Yes': '&aYes'
+  'No': '&cNo'
+  ConfirmLore: '&7Click here if you want to<NewLine>&7redeem this voucher!'
+  CancelLore: '&7Click to cancel the redeem.'

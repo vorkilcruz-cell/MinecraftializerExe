@@ -1,0 +1,2 @@
+{"loggerName":"FancyNpcs","logLevel":"ERROR","message":"Unsupported minecraft server version.","timestamp":1752633712073,"threadID":45,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1752634082386,"threadID":45,"threadName":"Server thread","properties":{}}

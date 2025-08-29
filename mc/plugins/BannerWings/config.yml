@@ -1,0 +1,25 @@
+#BannerWings by Shynixn
+
+#If you like this plugin consider a diamond on PMC ;)
+
+#Permissions
+
+# ADMIN
+#	- bannerwings.commands - Allows creating banners with the commands
+#   - bannerwings.entitywings - Allows to give entities wings
+
+# USER
+#	- bannerwings.useall - Allows to use all bannerwings.
+#	- bannerwings.use.<wingName> - Allows to use a specific bannerwing.
+
+#Use hitbox fixer - Warning! It only works for user with minecraft +1.8.3
+hitboxfixer: false
+
+#Plays wings sound when you have enabled wings
+play-wing-sound: true
+
+#Plays wings particle when you have enabled wings
+play-wing-particle: true
+
+#Enable/Disable data collecting for mcstats.org
+metrics: true

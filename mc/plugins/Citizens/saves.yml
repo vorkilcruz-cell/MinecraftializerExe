@@ -1,0 +1,36 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid: 08be5470-5aee-41cf-9cb3-1d759b7cf151
+      cached-skin-uuid-name: minigames
+    name: MiniGames
+    uuid: 7f0ee312-1ee7-4943-ba5f-28b58252b8e8
+    traits:
+      location:
+        bodyYaw: -94.35019
+        world: spawn
+        x: -12.0026
+        y: -62.0
+        z: 9.6689
+        yaw: -94.3502
+        pitch: 87.3251
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: FwyxPCptlKlH4WLpZ6Oc7XztyM21jepiOLsyeblZffrtZMyE2pUIMjXpeAZ7/C3XJ9c2ZhJjBwDSn0bU3crg2PvkK7vPn8vSIxtOfbD5VGeg27P4kYq4X4zP889gNiIn/4WBDBb4pqZK5Z9oQabqKOeaLeQqIhKxgj1ertRPd4OAzfz2R0T0bMABQZAqdfowAJT/jmD91bhXbFLM5u/nGnjNLuJJzki+mYXQdx82KGITMgqUK8ForCTQI+kaJIt74m0L6OXCYO8H8IZ8yCnc3t5Ypxran7JAArb+QgNdQvTdi8jcRvafPuHStdU5+zSwf/X8NPE8xIQylfpV89wpiP/v02rin2eoGbcmsfY6l1zSOKmN8YAqXAV4fuX099C9zTJJUmfVQW8F/i06WmDCezcNTVsnlwXxomUCDA9NMSgw4BHA9MYsvtXHXTrXD49hyEhX8VmTkPIidAxQhpU7hr4HrPzcaUx292+/UsdnpnbQdWsZuTQTXoQ1sHZhkf8pOlGeIQhcx+CV9V46XFWgZfvTHKg+0uec3MXxneCEa96gf81j9Um0HiwV7vpx7HUu/SC8DjF+VBayRDGJ0LRQDh9oY/HyU+p7JhZa0XGIDMMJnuhJDOcn3J9i8BZKx0wVWD3wyH1AIVfYNGvpVCQ8yru7VhgYukyCSYbuiYixsdo=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTc0OTg1NzEyMjk0OSwKICAicHJvZmlsZUlkIiA6ICIwOGJlNTQ3MDVhZWU0MWNmOWNiMzFkNzU5YjdjZjE1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pZ2FtZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU5MjI4OGRiM2JiMDBjNDg5NWY3NWQ2N2U5ZDFiNjI0MjA1ZjQzZjFhZTQwNmE0NzJiODM5MmUxYWEzOGM3ZiIKICAgIH0KICB9Cn0=
+        updateSkins: false
+      scoreboardtrait:
+        tags:
+          '0': CITIZENS_NPC
+      spawned: true
+      owner:
+        uuid: 68015cfb-08ad-3be9-af65-fcf077a1bf37
+    traitnames: scoreboardtrait,spawned,owner,skintrait,location,type,inventory
+    navigator:
+      speedmodifier: 1.0
+      avoidwater: false
+      usedefaultstuckaction: false

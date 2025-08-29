@@ -1,0 +1,13 @@
+tokens:
+- Rock:pex user <user> group set rock
+- Magma:pex user <user> group set magma
+- Lava:pex user <user> group set lava
+- Obsidian:pex user <user> group set obsidian
+- Crystal:pex user <user> group set crystal
+- Arsonist:pex user <user> group set arsonist
+prefix: '&6[&eVouchers&6]'
+broadcast: '&6<user> &eclaimed &6<voucher> &eby redeeming a voucher!'
+message: '&6You have claimed a voucher!'
+item:
+  name: '&a&l<name>'
+  lore: '&6Click this voucher to redeeem a reward.'

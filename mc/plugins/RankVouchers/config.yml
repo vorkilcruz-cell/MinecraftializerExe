@@ -1,0 +1,34 @@
+# -----[ Rank Vouchers ]----- #
+# ---------[ v3.0 ]--------- #
+
+message:
+  no-permission:
+    command: '&bRankVouchers: &7You do not have permission to do that.'
+    voucher: '&bRankVouchers: &7You require &cvoucher.use.%type% &7to use that voucher.'
+    world: '&bRankVouchers: &7You cannot use that voucher in this world.'
+    region: '&bRankVouchers: &7You cannot use that voucher in this region.'
+  invalid: '&bRankVouchers: &7The voucher specified does not exist.'
+  received: '&bRankVouchers: &7You''ve received &f%amount%x &3%type% &7Voucher&7.'
+  limit: '&bRankVouchers: &7Limit of &c%limit% &7reached for &b%type% &7voucher.'
+  command:
+    list: '&bRankVouchers: &7Listing &f%amount% &7Vouchers:'
+    main:
+    - '&bRankVouchers: &7Running &fv%version% &7by &cChazmondo.'
+    - '&bRankVouchers: &7Use &f/voucher help &7for commands.'
+    help:
+    - ''
+    - '&bRankVouchers: &7Listing Commands:'
+    - ''
+    - ' &8# &f/voucher help'
+    - ' &8# &f/voucher give <player> <voucher> [amount]'
+    - ' &8# &f/voucher giveall <voucher> [amount]'
+    - ' &8# &f/voucher list'
+    - ''
+    reload: '&bRankVouchers: &7Successfully reloaded, &f%amount% &7vouchers registered.'
+    given: '&bRankVouchers: &c%player% &7has been given &f%amount%x &3%type% &7Voucher&7.'
+    given-all: '&bRankVouchers: &c%online% Online Players &7have been given &f%amount%x
+      &3%type% &7Voucher&7.'
+    created: '&bRankVouchers: &7Created &b%type% &7voucher.'
+    removed: '&bRankVouchers: &7Removed &b%type% &7voucher.'
+format:
+  list: ' &8- &f%type%'

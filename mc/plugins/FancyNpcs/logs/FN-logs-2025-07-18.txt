@@ -1,0 +1,4 @@
+{"loggerName":"FancyNpcs","logLevel":"ERROR","message":"Unsupported minecraft server version.","timestamp":1752799923906,"threadID":45,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1752801189356,"threadID":45,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.6.0.280) has been enabled.","timestamp":1752801848751,"threadID":44,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1752802335384,"threadID":44,"threadName":"Server thread","properties":{}}

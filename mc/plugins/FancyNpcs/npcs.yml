@@ -1,0 +1,461 @@
+npcs:
+  885d403d-8200-4fce-847c-093478e6fe74:
+    name: Survival
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: Survival
+    type: PLAYER
+    location:
+      world: spawn
+      x: -11.978173713028456
+      y: -62.0
+      z: 5.039400527549273
+      yaw: -80.551636
+      pitch: 32.245895
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: true
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 900000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      mirrorSkin: true
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: mvtp world --unsafe
+        '2':
+          action: player_command_as_op
+          value: effect clear @s
+  93191de7-1ddc-453b-a264-11b28c85e6de:
+    name: Spooky_spider
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: Spooky spider
+    type: SPIDER
+    location:
+      world: spawn
+      x: -2.9764600743122944
+      y: -62.0
+      z: 14.740775556713544
+      yaw: -163.0232
+      pitch: 18.263168
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 20.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: tellraw @s [{"text":"Boooooooooo","click_event":{"action":"open_url","url":"https://www.youtube.com/watch?v=2ssklacyp_o"},"hover_event":{"action":"show_text","value":"Spooky
+            now click me"}}]
+  fc1fa218-2108-4f0f-b8a3-80c844642a52:
+    name: BringtospawnSworld
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: Chance
+    type: PLAYER
+    location:
+      world: world
+      x: 65.39681305052251
+      y: 96.0
+      z: 1.6311169282759626
+      yaw: 104.20075
+      pitch: 88.540924
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 9000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/05/24/chance---forsaken-23291688.png?v843
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: mvtp spawn --unsafe
+  5394a87f-192c-482a-b3fb-2bc0866a5982:
+    name: KitPvp
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: KitPvp
+    type: PLAYER
+    location:
+      world: spawn
+      x: -11.591741948691315
+      y: -62.0
+      z: 2.6052128624636066
+      yaw: -93.38556
+      pitch: 82.21851
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 9000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/06/05/shedletsky-23319674.png?v845
+      variant: SLIM
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: mvtp KitPvp --unsafe
+  51a45a70-e372-4626-ba23-beb21caebace:
+    name: TextWelcome
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: Welcome to the chance smp
+    type: TEXT_DISPLAY
+    location:
+      world: spawn
+      x: 5.979520480305363
+      y: -57.117599440951466
+      z: 5.439954548276087
+      yaw: 88.10022
+      pitch: 49.67995
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+  03017ea4-2399-4857-a46c-72805fe9e5ab:
+    name: -_------------------
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: world
+      x: 57.501207245212335
+      y: 92.0
+      z: -19.00636954267189
+      yaw: -32.72754
+      pitch: 49.997593
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 900000000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      mirrorSkin: false
+  5d9d3aa2-25c4-429c-93ed-04b2d65286e3:
+    name: Archer
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: Archer
+    type: PLAYER
+    location:
+      world: KitPvp
+      x: -11.499366085514964
+      y: -63.0
+      z: -10.574960789906871
+      yaw: -179.62396
+      pitch: 41.364975
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/06/05/archer-23318362.png?v845
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: tp @s 59 -57 16
+        '2':
+          action: player_command_as_op
+          value: give @s bow
+        '3':
+          action: player_command_as_op
+          value: give @s iron_leggings
+        '4':
+          action: player_command_as_op
+          value: give @s iron_helmet
+        '5':
+          action: player_command_as_op
+          value: give @s iron_boots
+        '6':
+          action: player_command_as_op
+          value: effect @s speed infinite 2 true
+        '7':
+          action: player_command_as_op
+          value: effect give TheAverageOneYT minecraft:speed infinite 2 true
+        '8':
+          action: player_command_as_op
+          value: give @s stone_sword[enchantments={knockback:5,unbreaking:3}]
+        '9':
+          action: player_command_as_op
+          value: give @s arrow 64
+        '10':
+          action: player_command_as_op
+          value: gamemode @s adventuremode
+        '11':
+          action: player_command_as_op
+          value: gamemode adventure @s
+        '12':
+          action: player_command_as_op
+          value: effect give @s minecraft:speed infinite 3 true
+        '13':
+          action: player_command_as_op
+          value: give @s golden_apple 5
+        '14':
+          action: player_command_as_op
+          value: give @s enchanted_golden_apple 3
+  4441cc64-53a6-4bb8-b870-f31f94496fdb:
+    name: home1
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: Elliot
+    type: PLAYER
+    location:
+      world: KitPvp
+      x: -2.5706886396345223
+      y: -62.99506192876378
+      z: -20.93593654952584
+      yaw: 92.26233
+      pitch: 26.652758
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 9000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/05/20/elliot---forsaken-23283142.png?v845
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: mvtp spawn
+  9d37ff45-ca20-4441-a458-0b6008aacc75:
+    name: SecretNpc1
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: spawn
+      x: 45.30000001192093
+      y: -62.0
+      z: -8.300000011920929
+      yaw: -10.416748
+      pitch: 75.6526
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 9000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/06/10/cave-dweller-steve-23327922.png?v845
+      variant: AUTO
+      mirrorSkin: false
+  ec1a0835-019b-4890-9c9f-42b5797533eb:
+    name: coolkiddummy1
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: KitPvp
+      x: -118.7106374212828
+      y: -60.0
+      z: -81.20200703739413
+      yaw: 3.326477
+      pitch: -2.3896537
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/05/31/coolkid--23308712.png?v845
+      variant: AUTO
+      mirrorSkin: false
+  8257670f-956c-4876-ad22-47a9ec9b0841:
+    name: coolkiddummy2
+    creator: 54271b15-1b2b-4361-bb53-575bf56f2e10
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: KitPvp
+      x: -132.36867208515852
+      y: -60.0
+      z: -81.20305245198377
+      yaw: 14.978241
+      pitch: -14.183688
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/05/31/coolkid--23308712.png?v845
+      variant: AUTO
+      mirrorSkin: false
+  596298a0-1e15-450e-a399-501fb5a73e2c:
+    name: Aveage
+    creator: 68015cfb-08ad-3be9-af65-fcf077a1bf37
+    displayName: TheAverageOneYT
+    type: PLAYER
+    location:
+      world: KitPvp
+      x: -82.44723182241698
+      y: -60.0
+      z: -132.69999998807907
+      yaw: 1.6446228
+      pitch: 5.982801
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: TheAverageOneYT
+      variant: AUTO
+      mirrorSkin: false
+  4e642661-e415-4450-928f-2eb2873d250e:
+    name: Minigames
+    creator: 68015cfb-08ad-3be9-af65-fcf077a1bf37
+    displayName: Minigames
+    type: PLAYER
+    location:
+      world: spawn
+      x: -12.056690790111737
+      y: -62.0
+      z: 7.313391410212513
+      yaw: -91.240204
+      pitch: 31.881136
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 90000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/01/05/c00lkidd---forsaken-22977794.png?v847
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: player_command_as_op
+          value: mvtp minigames
+  6a80d516-8d19-4e6b-98d4-d0d9f15dea49:
+    name: Spleef
+    creator: 68015cfb-08ad-3be9-af65-fcf077a1bf37
+    displayName: Spleef
+    type: PLAYER
+    location:
+      world: MiniGames
+      x: 41.33538833644057
+      y: -60.0
+      z: -50.58534930367915
+      yaw: 89.87207
+      pitch: 1.8487996
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/05/18/snowman-v2-23279647.png?v847
+      variant: AUTO
+      mirrorSkin: false
+  45cd1521-9f53-4d3b-aa39-a847a6198e7a:
+    name: voidmonsterbackrooms1
+    creator: 68015cfb-08ad-3be9-af65-fcf077a1bf37
+    displayName: <empty>
+    type: PLAYER
+    location:
+      world: KitPvp
+      x: -373.3181995125712
+      y: -55.0
+      z: -116.30000001192093
+      yaw: -178.19922
+      pitch: 8.849739
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: 90000
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: 2147483647
+    skin:
+      identifier: https://www.minecraftskins.com/uploads/skins/2025/07/19/ghost-eye-23409912.png?v889
+      variant: AUTO
+      mirrorSkin: false
